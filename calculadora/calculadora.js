@@ -6,7 +6,7 @@ function calculadora(){
 
     operando1 = parseFloat( prompt("digite o primeiro número: ") );
     operando2 = parseFloat( prompt("digite o segundo número: ") );
-    operador = parseFloat( prompt("Digite uma das operações ( + - * / ): ") )
+    operador = prompt("Digite uma das operações ( + - * / ): ") 
 
     if ( operador === "+" ){
         resultado = operando1 + operando2;
@@ -27,4 +27,8 @@ function calculadora(){
 
     alert("resultado: " + 
         operando1 + " " + operador + " " + operando2 + " = " + resultado);
-}
+
+   
+   }
+}    
+    
