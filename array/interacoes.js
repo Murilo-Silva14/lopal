@@ -35,5 +35,21 @@ console.log(numeros.length);
 numeros.length = 10;
 console.log(numeros);
 console.log(numeros[6]);
+numeros.length = 4;
+console.log(numeros);
+numeros.length = 5;
+console.log(numeros);
+
+//O método push() acrescenta um elemento no fim do array
+numeros.push(25);
+console.log(numeros);
+
+//O método pop() remove um elemento no fim do array
+numeros.pop();
+console.log(numeros)
+
+numeros.pop();
+numeros.push(25);
+console.log(numeros);
 
 //console.log(numeros);
